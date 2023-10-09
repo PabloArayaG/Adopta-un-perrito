@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 2em;
+}
+
+.card-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.header-title {
+  margin-bottom: 40px;
+}
+
+.footer{
+  margin-top: 30px;
+}
+
+.card-content {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
